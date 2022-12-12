@@ -1,0 +1,64 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoPSiEdit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Test_DemoJsonFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\\Development-Net\\Applications\\.NET Framework 4.8\\AutoPSi\\AutoPSiEdit\\data\\job_EMEA_printer.00005</Value>
+    </Setting>
+    <Setting Name="Test_LoadDemo" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UserDataKey_SerialNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Serial</Value>
+    </Setting>
+    <Setting Name="UserDataKey_MACAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MAC</Value>
+    </Setting>
+    <Setting Name="UserDataKey_AssetOwner" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Provider</Value>
+    </Setting>
+    <Setting Name="UserDataKey_Source" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Source</Value>
+    </Setting>
+    <Setting Name="UserDataRef_AssetOwner" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;DB&lt;/string&gt;
+  &lt;string&gt;HP&lt;/string&gt;
+  &lt;string&gt;ATOS&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UserDataRef_ProcType" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;add&lt;/string&gt;
+  &lt;string&gt;modify&lt;/string&gt;
+  &lt;string&gt;remove&lt;/string&gt;
+  &lt;string&gt;ignore&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UserDataRef_Source" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;Manual&lt;/string&gt;
+  &lt;string&gt;dbNet3&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UserDataRef_ModelName" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;HP Color LaserJet E55040&lt;/string&gt;
+  &lt;string&gt;HP Color LaserJet E87660&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="UserDataRef_GroupName" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;ALL-HP-COSI&lt;/string&gt;
+  &lt;string&gt;ALL-HP-MOSI&lt;/string&gt;
+  &lt;string&gt;ALL-HP-MOSI&lt;/string&gt;
+  &lt;string&gt;ALL-HP-MODU&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSiMgmt", "AutoPSiMgmt.csproj", "{100BA006-8058-4477-B4C3-AEE5AB20AEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSi.PersistenceService", "..\AutoPSi.Persistence\AutoPSi.PersistenceService.csproj", "{8E7E9DD2-1253-4384-8ABC-D858D6829CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSi.Persistence.Interface", "..\AutoPSi.Persistence.Interface\AutoPSi.Persistence.Interface.csproj", "{55A6E2F1-7E90-471F-B9AB-A21FE23A7DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSi.CoreLogic.Interface", "..\AutoPSi.CoreLogic.Interface\AutoPSi.CoreLogic.Interface.csproj", "{5CC6006A-1153-44F8-B1F6-83778432A8B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSi.CoreLogic.Service", "..\AutoPSi.CoreLogic.Service\AutoPSi.CoreLogic.Service.csproj", "{31EB0110-6B99-4653-B771-DBE67BC24B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPSi.CoreLogic.Types", "..\AutoPSi.CoreLogic.Types\AutoPSi.CoreLogic.Types.csproj", "{6E15F626-1A60-4938-86B3-A53C1BE23665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100BA006-8058-4477-B4C3-AEE5AB20AEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100BA006-8058-4477-B4C3-AEE5AB20AEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100BA006-8058-4477-B4C3-AEE5AB20AEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100BA006-8058-4477-B4C3-AEE5AB20AEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7E9DD2-1253-4384-8ABC-D858D6829CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7E9DD2-1253-4384-8ABC-D858D6829CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7E9DD2-1253-4384-8ABC-D858D6829CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7E9DD2-1253-4384-8ABC-D858D6829CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A6E2F1-7E90-471F-B9AB-A21FE23A7DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A6E2F1-7E90-471F-B9AB-A21FE23A7DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A6E2F1-7E90-471F-B9AB-A21FE23A7DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A6E2F1-7E90-471F-B9AB-A21FE23A7DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC6006A-1153-44F8-B1F6-83778432A8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC6006A-1153-44F8-B1F6-83778432A8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC6006A-1153-44F8-B1F6-83778432A8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC6006A-1153-44F8-B1F6-83778432A8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EB0110-6B99-4653-B771-DBE67BC24B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EB0110-6B99-4653-B771-DBE67BC24B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EB0110-6B99-4653-B771-DBE67BC24B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EB0110-6B99-4653-B771-DBE67BC24B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E15F626-1A60-4938-86B3-A53C1BE23665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E15F626-1A60-4938-86B3-A53C1BE23665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E15F626-1A60-4938-86B3-A53C1BE23665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E15F626-1A60-4938-86B3-A53C1BE23665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF831DBD-5D67-45E1-90ED-25256ACF49AC}
+	EndGlobalSection
+EndGlobal
